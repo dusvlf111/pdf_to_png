@@ -37,6 +37,7 @@
 1.  **Python 3**: [공식 웹사이트](https://www.python.org/)에서 다운로드 및 설치
 2.  **Poppler**: PDF 렌더링을 위한 필수 도구입니다.
     -   **Windows**: [여기](https://github.com/oschwartz10612/poppler-windows/releases/)에서 최신 버전을 다운로드하여 압축을 푼 후, 내부의 `bin` 폴더 경로를 복사하여 스크립트의 `POPPLE_PATH_CONFIG` 변수에 설정해야 합니다.
+        윈도우는 기본으로 설정을 했습니다.
     -   **macOS (Homebrew)**: `brew install poppler`
     -   **Linux (apt)**: `sudo apt-get install poppler-utils`
 3.  **파이썬 라이브러리**: 터미널에서 아래 명령어로 설치합니다.
