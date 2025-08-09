@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경 (Virtual Environment)
+venv/
+*.venv
+env/
+*.env
+
+# IDE 및 에디터 설정 파일
+.vscode/
+.idea/
+
+# 처리할 원본 및 결과물 파일 무시
+# 폴더 자체는 유지하되, 안의 내용물은 모두 무시합니다.
+input/*
+!input/.gitkeep
+
+output/*
+!output/.gitkeep
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+.history/
+*.history
